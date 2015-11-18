@@ -1,0 +1,21 @@
+﻿La génération a démarré 18/11/2015 09:11:58.
+     1>Projet "C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\cpp_spider\cpp_spider.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\include" /I"C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt WinSocket.cpp
+         WinSocket.cpp
+     1>c:\users\clemence\documents\visual studio 2015\projects\cpp_spider\cpp_spider\winsocket.cpp(163): warning C4101: 'pe' : variable locale non référencée
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\Debug\cpp_spider.exe" /INCREMENTAL /NOLOGO "C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x86\debug\libeay32.lib" "C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x86\debug\ssleay32.lib" "C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\Win32\Debug\zlibd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib WS2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\Debug\cpp_spider.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\Debug\cpp_spider.lib" /MACHINE:X86 Debug\BBException.obj
+         Debug\ISocket.obj
+         Debug\MutexVault.obj
+         Debug\Packet.obj
+         Debug\Rsa.obj
+         Debug\Spider.obj
+         Debug\WinSocket.obj
+         Debug\Working.obj
+         cpp_spider.vcxproj -> C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\Debug\cpp_spider.exe
+     1>Génération du projet "C:\Users\Clemence\Documents\Visual Studio 2015\Projects\cpp_spider\cpp_spider\cpp_spider.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.21
