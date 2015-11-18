@@ -1,0 +1,39 @@
+﻿La génération a démarré 18/11/2015 09:54:29.
+     1>Projet "C:\Users\Clemence\Documents\GitHub\cpp_spider\cpp_spider\cpp_spider.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Clemence\Documents\GitHub\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x64.1.0.2.0\build\native\include" /I"C:\Users\Clemence\Documents\GitHub\cpp_spider\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\include" /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt BBException.cpp ISocket.cpp MutexVault.cpp Packet.cpp Rsa.cpp Spider.cpp WinSocket.cpp Working.cpp
+         Working.cpp
+         WinSocket.cpp
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\winsocket.cpp(102): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\winsocket.cpp(163): warning C4101: 'pe' : variable locale non référencée
+         Spider.cpp
+         Rsa.cpp
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\rsa.cpp(54): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\rsa.cpp(50): warning C4101: 'ptr' : variable locale non référencée
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\rsa.cpp(103): warning C4101: 'flen' : variable locale non référencée
+         Packet.cpp
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\packet.cpp(66): warning C4312: 'reinterpret_cast' : la conversion de 'int' en 'unsigned char *' d'une taille supérieure
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\packet.cpp(177): warning C4267: '=' : conversion de 'size_t' en 'unsigned int', perte possible de données
+         MutexVault.cpp
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\mutexvault.cpp(30): warning C4312: 'reinterpret_cast' : la conversion de 'const unsigned long' en 'void *' d'une taille supérieure
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\mutexvault.cpp(37): warning C4312: 'reinterpret_cast' : la conversion de 'const unsigned long' en 'IMutex *' d'une taille supérieure
+         ISocket.cpp
+     1>c:\users\clemence\documents\github\cpp_spider\cpp_spider\isocket.cpp(92): warning C4267: '=' : conversion de 'size_t' en 'unsigned int', perte possible de données
+         BBException.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.exe" /INCREMENTAL /NOLOGO "C:\Users\Clemence\Documents\GitHub\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x64.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x64\debug\libeay32.lib" "C:\Users\Clemence\Documents\GitHub\cpp_spider\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x64.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x64\debug\ssleay32.lib" "C:\Users\Clemence\Documents\GitHub\cpp_spider\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x64\Debug\zlibd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.lib" /MACHINE:X64 x64\Debug\BBException.obj
+         x64\Debug\ISocket.obj
+         x64\Debug\MutexVault.obj
+         x64\Debug\Packet.obj
+         x64\Debug\Rsa.obj
+         x64\Debug\Spider.obj
+         x64\Debug\WinSocket.obj
+         x64\Debug\Working.obj
+            Création de la bibliothèque C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.lib et de l'objet C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.exp
+         cpp_spider.vcxproj -> C:\Users\Clemence\Documents\GitHub\cpp_spider\x64\Debug\cpp_spider.exe
+     1>Génération du projet "C:\Users\Clemence\Documents\GitHub\cpp_spider\cpp_spider\cpp_spider.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.70

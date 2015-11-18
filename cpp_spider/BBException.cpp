@@ -7,7 +7,6 @@ BBException::~BBException() throw() {
 }
 
 BBException::BBException(const std::string & message, int line) throw() {
-
 	std::ostringstream ss;
 	ss << line;
 	this->_message = "Line " + ss.str() + ": " + message;
